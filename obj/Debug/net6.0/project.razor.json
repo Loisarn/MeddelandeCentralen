@@ -12,72 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1893590869,
-        "Kind": "Components.Component",
-        "Name": "MeddelandeCentralen.Pages.Counter",
-        "AssemblyName": "MeddelandeCentralen",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MeddelandeCentralen.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": 526982190,
-        "Kind": "Components.Component",
-        "Name": "MeddelandeCentralen.Pages.Counter",
-        "AssemblyName": "MeddelandeCentralen",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MeddelandeCentralen.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MeddelandeCentralen.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1035734168,
-        "Kind": "Components.Component",
-        "Name": "MeddelandeCentralen.Pages.FetchData",
-        "AssemblyName": "MeddelandeCentralen",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MeddelandeCentralen.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 949052551,
-        "Kind": "Components.Component",
-        "Name": "MeddelandeCentralen.Pages.FetchData",
-        "AssemblyName": "MeddelandeCentralen",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MeddelandeCentralen.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MeddelandeCentralen.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -525032874,
         "Kind": "Components.Component",
         "Name": "MeddelandeCentralen.Pages.Index",
@@ -140,59 +74,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MeddelandeCentralen.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -723810771,
-        "Kind": "Components.Component",
-        "Name": "MeddelandeCentralen.Shared.SurveyPrompt",
-        "AssemblyName": "MeddelandeCentralen",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MeddelandeCentralen.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 335426474,
-        "Kind": "Components.Component",
-        "Name": "MeddelandeCentralen.Shared.SurveyPrompt",
-        "AssemblyName": "MeddelandeCentralen",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MeddelandeCentralen.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MeddelandeCentralen.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16617,16 +16498,6 @@
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/Pages/FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/Shared/SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
       "FilePath": "/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/Pages/Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
@@ -16649,11 +16520,6 @@
     {
       "FilePath": "/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/Shared/NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/Pages/Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
     },
     {
