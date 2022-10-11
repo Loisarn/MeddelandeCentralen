@@ -25,3 +25,14 @@
 /Users/louiceborg/Documents/GitHub/MeddelandeCentralen/obj/Debug/net6.0/ref/MeddelandeCentralen.dll
 /Users/louiceborg/Documents/GitHub/MeddelandeCentralen/obj/Debug/net6.0/MeddelandeCentralen.pdb
 /Users/louiceborg/Documents/GitHub/MeddelandeCentralen/obj/Debug/net6.0/MeddelandeCentralen.genruntimeconfig.cache
+/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/bin/Debug/net6.0/Microsoft.AspNetCore.Connections.Abstractions.dll
+/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/bin/Debug/net6.0/Microsoft.AspNetCore.Http.Connections.Client.dll
+/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/bin/Debug/net6.0/Microsoft.AspNetCore.Http.Connections.Common.dll
+/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/bin/Debug/net6.0/Microsoft.AspNetCore.SignalR.Client.dll
+/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/bin/Debug/net6.0/Microsoft.AspNetCore.SignalR.Client.Core.dll
+/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/bin/Debug/net6.0/Microsoft.AspNetCore.SignalR.Common.dll
+/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/bin/Debug/net6.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/bin/Debug/net6.0/Microsoft.Extensions.Features.dll
+/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/bin/Debug/net6.0/System.IO.Pipelines.dll
+/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/obj/Debug/net6.0/MeddelandeCentralen.csproj.CopyComplete

@@ -45,6 +45,39 @@
         }
       },
       {
+        "HashCode": 1693731364,
+        "Kind": "Components.Component",
+        "Name": "MeddelandeCentralen.Pages.ChatRoom",
+        "AssemblyName": "MeddelandeCentralen",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChatRoom"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MeddelandeCentralen.Pages.ChatRoom"
+        }
+      },
+      {
+        "HashCode": -115817267,
+        "Kind": "Components.Component",
+        "Name": "MeddelandeCentralen.Pages.ChatRoom",
+        "AssemblyName": "MeddelandeCentralen",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MeddelandeCentralen.Pages.ChatRoom"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MeddelandeCentralen.Pages.ChatRoom",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1883984859,
         "Kind": "Components.Component",
         "Name": "MeddelandeCentralen.App",
@@ -16505,6 +16538,11 @@
     {
       "FilePath": "/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/Shared/MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/Pages/ChatRoom.razor",
+      "TargetPath": "Pages\\ChatRoom.razor",
       "FileKind": "component"
     },
     {
