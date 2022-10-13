@@ -1,14 +1,9 @@
-@page "/chatroom"
+@page "/chatroom2"
 @inject NavigationManager navigationManager
-@inject Blazored.LocalStorage.ILocalStorageService localStorageService
 @using Microsoft.AspNetCore.SignalR.Client;
 @using MeddelandeCentralen.Data;
-@using System.Linq;
-@using System.Threading.Tasks;
-@using System;
 
-
-<h1 class="pagetitle">Chatrum 1</h1>
+<h1 class="pagetitle">Chatrum 2</h1>
 <hr />
 
 @if (!_isChatting)
@@ -40,22 +35,18 @@ else
             <div class="@item.CSS">
                 <div class="user">@item.Username</div>
                 <div class="msg">@item.Body</div>
-                <div class="small">@DateTime.Now</div>
             </div>
         }
         <hr />
         <textarea class="input-lg" placeholder="Skriv här" @bind="@_newMessage"></textarea>
-        <button type="submit" class="btn btn-default" @onclick="@(() => SendAsync(_newMessage))">Skicka</button>
+        <button class="btn btn-default" @onclick="@(() => SendAsync(_newMessage))">Skicka</button>
     </div>
 }
 
 @code {
-    @* const string key = "MyLocalStorage"; *@
-    @* string localStorageValue; *@
     private bool _isChatting = false;
     private string? _username;
     private string? _message;
-    public DateTime DateSent;
     private string? _newMessage;
     private List<Message> _messages = new List<Message>();
     private string? _hubUrl;
@@ -108,7 +99,6 @@ else
     {
         if (_isChatting)
         {
-
             await _hubConnection.StopAsync();
             await _hubConnection.DisposeAsync();
 
@@ -139,7 +129,7 @@ else
         public string Username { get; set; }
         public string Body { get; set; }
         public bool Mine { get; set; }
-        @* public bool IsNotice => Body.StartsWith("[Notice]"); *@
+        public bool IsNotice => Body.StartsWith("[Notice]");
         public string CSS => Mine ? "sent" : "received";
     }
 }

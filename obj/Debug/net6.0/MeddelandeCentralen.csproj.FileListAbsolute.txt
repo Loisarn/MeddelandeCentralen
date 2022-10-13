@@ -36,3 +36,4 @@
 /Users/louiceborg/Documents/GitHub/MeddelandeCentralen/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
 /Users/louiceborg/Documents/GitHub/MeddelandeCentralen/bin/Debug/net6.0/System.IO.Pipelines.dll
 /Users/louiceborg/Documents/GitHub/MeddelandeCentralen/obj/Debug/net6.0/MeddelandeCentralen.csproj.CopyComplete
+/Users/louiceborg/Documents/GitHub/MeddelandeCentralen/bin/Debug/net6.0/Blazored.LocalStorage.dll

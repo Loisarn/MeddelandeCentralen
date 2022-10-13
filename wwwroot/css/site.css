@@ -1,7 +1,8 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: gainsboro;
 }
 
 h1:focus {
@@ -62,3 +63,122 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+
+    /* Chat room */
+
+    .pagetitle {
+        text-align: center;
+        color: white;
+    }
+
+    /* improved for chat text box */
+textarea {
+    border: 1px solid #888;
+    border-radius: 5px;
+    width: 80%;
+    overflow: auto;
+    color: black;
+    background: #f7f7f7
+}
+
+/* improved for speech bubbles */
+.received, .sent {
+    position: relative;
+    font-family: arial;
+    font-size: 1.1em;
+    border-radius: 50px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.received:after, .sent:after {
+    content: '';
+    border: 20px solid transparent;
+    position: absolute;
+    margin-top: -30px;
+}
+
+.sent {
+    background: #faf9fa;
+    color: rgb(13, 13, 13);
+    margin-left: 10%;
+    top: 50%;
+    text-align: right;
+}
+
+.received {
+    background: #818281;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10%;
+}
+
+.sent:after {
+    border-right: 0;
+    right: -20px;
+}
+
+.received:after {
+    border-left: 0;
+    left: -20px;
+}
+
+.user-text {
+ display: block;
+ align-items: center;
+}
+
+/* div within bubble for name */
+.user {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000;
+}
+
+.msg {
+    display: inline;
+}
+
+.btn {
+    background-color: rgb(249, 92, 92);
+    padding: 1px;
+    display: inline;
+    align-items: right;
+}
+
+.alert {
+    background-color: whitesmoke;
+    color: black;
+    opacity: 1;
+    border: none;
+}
+
+.small {
+    color: rgb(212, 207, 207);
+    font-size: 10px;
+    text-align: center;
+}
+
+/* HOMEPAGE */
+
+.home-link {
+  background-color: red;
+  display: list-item;
+  list-style: none;
+  height:50px;
+  width: 70px;
+  border-radius: 5px 20px 5px;
+}
+
+.list {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 2px 10px;
+    width: 100%;
+    height: 100px;
+}
+

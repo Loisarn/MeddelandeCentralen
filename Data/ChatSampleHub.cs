@@ -19,10 +19,10 @@ namespace MeddelandeCentralen.Data
             return base.OnConnectedAsync();
         }
 
-        public override async Task OnDisconnectedAsync(Exception e)
+        public override async Task OnDisconnectedAsync(Exception error)
         {
-            Console.WriteLine($"Disconnected {e?.Message} {Context.ConnectionId}");
-            await base.OnDisconnectedAsync(e);
+            Console.WriteLine($"Disconnected {error?.Message} {Context.ConnectionId}");
+            await base.OnDisconnectedAsync(error);
         }
     }
 }
