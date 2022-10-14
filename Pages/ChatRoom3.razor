@@ -9,9 +9,9 @@
 @if (!_isChatting)
 {
     <div class="user-text">
-    <p>Användarnamn</p>
+    <p class="userName">Användarnamn</p>
 
-    <input type="text" maxlength="30" @bind="@_username" />
+    <input type="text" class="textbox" maxlength="30" @bind="@_username" />
     <button type="button" @onclick="@Chat"><span class="oi oi-chat" aria-hidden="true"></span></button>
 </div>
 
@@ -42,7 +42,7 @@ else
         }
         <hr />
         <textarea class="input-lg" placeholder="Skriv här" @bind="@_newMessage"></textarea>
-        <button class="btn-send" @onclick="@(() => SendAsync(_newMessage))">Skicka</button>
+        <button class="btn-send" @onclick="@(() => SendAsync(_newMessage))"><span class="send">Skicka</span></button>
     </div>
 }
 

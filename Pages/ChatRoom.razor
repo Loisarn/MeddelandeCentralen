@@ -1,5 +1,6 @@
 @page "/chatroom"
 @inject NavigationManager navigationManager
+@* @implements IAsyncDisposable *@
 @inject Blazored.LocalStorage.ILocalStorageService localStorageService
 @using Microsoft.AspNetCore.SignalR.Client;
 @using MeddelandeCentralen.Data;
@@ -13,9 +14,9 @@
 
 @if (!_isChatting)
 {
-    <p>Användarnamn</p>
+    <p class="userName">Användarnamn</p>
 
-    <input type="text" maxlength="30" @bind="@_username" />
+    <input type="text" class="textbox" maxlength="30" @bind="@_username" />
     <button type="button" @onclick="@Chat"><span class="oi oi-chat" aria-hidden="true"></span></button>
 
     //Error messages
@@ -38,14 +39,15 @@ else
     @foreach (var item in _messages)
         {
             <div class="@item.CSS">
-                <div class="user">@item.Username</div>
+                <div class="user"><span class="oi oi-person mr-2" aria-hidden="true"></span><span
+                class="item-user">@item.Username</span></div>
                 <div class="msg">@item.Body</div>
-                <div class="small">@DateTime.Now</div>
+                <div class="small">@item.DateSent.ToString("HH:mm | MMM dd")</div>
             </div>
         }
         <hr />
         <textarea class="input-lg" placeholder="Skriv här" @bind="@_newMessage"></textarea>
-        <button class="btn-send" @onclick="@(() => SendAsync(_newMessage))">Skicka</button>
+        <button class="btn-send" @onclick="@(() => SendAsync(_newMessage))"><span class="send">Skicka</span></button>
     </div>
 }
 
@@ -99,7 +101,7 @@ else
     {
         bool isMine = name.Equals(_username, StringComparison.OrdinalIgnoreCase);
 
-        _messages.Add(new Message(name, message, isMine));
+        _messages.Add(new Message(name, message, isMine, DateSent = DateTime.Now));
 
         StateHasChanged();
     }
@@ -129,17 +131,18 @@ else
 
     private class Message
     {
-        public Message(string username, string body, bool mine)
+        public Message(string username, string body, bool mine, DateTime dateSent)
         {
             Username = username;
             Body = body;
             Mine = mine;
+            DateSent = dateSent;
         }
 
         public string Username { get; set; }
         public string Body { get; set; }
         public bool Mine { get; set; }
-        @* public bool IsNotice => Body.StartsWith("[Notice]"); *@
+        public DateTime DateSent { get; set; }
         public string CSS => Mine ? "sent" : "received";
     }
 }
