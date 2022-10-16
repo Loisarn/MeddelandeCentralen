@@ -35,7 +35,7 @@ else
             <div class="@item.CSS">
                 <div class="user">@item.Username</div>
                 <div class="msg">@item.Body</div>
-                <div class="small">@DateTime.Now</div>
+                <div class="small">@item.DateSent.ToString("HH:mm")</div>
             </div>
         }
         <hr />
@@ -48,6 +48,7 @@ else
     private bool _isChatting = false;
     private string? _username;
     private string? _message;
+    public DateTime DateSent;
     private string? _newMessage;
     private List<Message> _messages = new List<Message>();
     private string? _hubUrl;
@@ -91,7 +92,7 @@ else
     {
         bool isMine = name.Equals(_username, StringComparison.OrdinalIgnoreCase);
 
-        _messages.Add(new Message(name, message, isMine));
+        _messages.Add(new Message(name, message, isMine, DateSent = DateTime.Now));
 
         StateHasChanged();
     }
@@ -120,17 +121,18 @@ else
 
     private class Message
     {
-        public Message(string username, string body, bool mine)
+        public Message(string username, string body, bool mine, DateTime dateSent)
         {
             Username = username;
             Body = body;
             Mine = mine;
+            DateSent = dateSent;
         }
 
         public string Username { get; set; }
         public string Body { get; set; }
         public bool Mine { get; set; }
-        public bool IsNotice => Body.StartsWith("[Notice]");
+        public DateTime DateSent { get; set; }
         public string CSS => Mine ? "sent" : "received";
     }
 }
