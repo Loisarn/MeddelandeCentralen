@@ -12,68 +12,35 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1381019834,
+        "HashCode": 232040185,
         "Kind": "Components.Component",
-        "Name": "MeddelandeCentralen.Pages.Index",
+        "Name": "MeddelandeCentralen.Pages.ChatRoom",
         "AssemblyName": "MeddelandeCentralen",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "ChatRoom"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MeddelandeCentralen.Pages.Index"
+          "Common.TypeName": "MeddelandeCentralen.Pages.ChatRoom"
         }
       },
       {
-        "HashCode": 687032098,
+        "HashCode": 1411967323,
         "Kind": "Components.Component",
-        "Name": "MeddelandeCentralen.Pages.Index",
+        "Name": "MeddelandeCentralen.Pages.ChatRoom",
         "AssemblyName": "MeddelandeCentralen",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MeddelandeCentralen.Pages.Index"
+            "TagName": "MeddelandeCentralen.Pages.ChatRoom"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MeddelandeCentralen.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -821257380,
-        "Kind": "Components.Component",
-        "Name": "MeddelandeCentralen.Pages.ChatRoom2",
-        "AssemblyName": "MeddelandeCentralen",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ChatRoom2"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MeddelandeCentralen.Pages.ChatRoom2"
-        }
-      },
-      {
-        "HashCode": -2033019075,
-        "Kind": "Components.Component",
-        "Name": "MeddelandeCentralen.Pages.ChatRoom2",
-        "AssemblyName": "MeddelandeCentralen",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MeddelandeCentralen.Pages.ChatRoom2"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MeddelandeCentralen.Pages.ChatRoom2",
+          "Common.TypeName": "MeddelandeCentralen.Pages.ChatRoom",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -111,35 +78,68 @@
         }
       },
       {
-        "HashCode": 232040185,
+        "HashCode": -821257380,
         "Kind": "Components.Component",
-        "Name": "MeddelandeCentralen.Pages.ChatRoom",
+        "Name": "MeddelandeCentralen.Pages.ChatRoom2",
         "AssemblyName": "MeddelandeCentralen",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "ChatRoom"
+            "TagName": "ChatRoom2"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MeddelandeCentralen.Pages.ChatRoom"
+          "Common.TypeName": "MeddelandeCentralen.Pages.ChatRoom2"
         }
       },
       {
-        "HashCode": 1411967323,
+        "HashCode": -2033019075,
         "Kind": "Components.Component",
-        "Name": "MeddelandeCentralen.Pages.ChatRoom",
+        "Name": "MeddelandeCentralen.Pages.ChatRoom2",
         "AssemblyName": "MeddelandeCentralen",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MeddelandeCentralen.Pages.ChatRoom"
+            "TagName": "MeddelandeCentralen.Pages.ChatRoom2"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MeddelandeCentralen.Pages.ChatRoom",
+          "Common.TypeName": "MeddelandeCentralen.Pages.ChatRoom2",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1381019834,
+        "Kind": "Components.Component",
+        "Name": "MeddelandeCentralen.Pages.Index",
+        "AssemblyName": "MeddelandeCentralen",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MeddelandeCentralen.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 687032098,
+        "Kind": "Components.Component",
+        "Name": "MeddelandeCentralen.Pages.Index",
+        "AssemblyName": "MeddelandeCentralen",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MeddelandeCentralen.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MeddelandeCentralen.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

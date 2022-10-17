@@ -261,32 +261,52 @@ textarea {
     transition: all 0.5s;
 }
 
-/* .btn-send {
-    color: white;
-    padding: 7px 25px;
-    border-radius: 30px;
-    background: #0c1fca;
-    background: -webkit-linear-gradient(to right, #938bf0, #bbb8ee);
-    background: linear-gradient(to right, #8b85cd, #1f08a0);
-    box-shadow: 0 10px 10px -2px rgba(158, 156, 156, 0.25);
-}
-
-.btn-send:hover {
-color: white;
-transition: all 0.2 ease-in-out;
-opacity: 5;
-} */
-
 /* HOMEPAGE */
 
-.link {
-  background-color: rgb(25, 23, 23);
+.link-1, .link-2, .link-3 {
   display: list-item;
   list-style: none;
-  height:60px;
-  width: 90px;
+  height:70px;
+  width: 150px;
   border-radius: 5px 20px 5px;
   font-weight: bold;
+}
+
+.link-1 {
+    border: 3px solid white;
+    background: repeating-linear-gradient(
+        45deg,
+        #606dbc,
+        #606dbc 10px,
+        #465298 10px,
+        #465298 20px);
+}
+
+.link-2 {
+    background-image: radial-gradient(circle at 4px 4px, rgb(1, 231, 247) 4px, transparent 0);
+    background-color: gainsboro;
+    border:3px solid white;
+    background-size: 27px 27px;
+}
+
+.link-3 {
+    border: 3px solid white;
+    background-image: repeating-radial-gradient(circle,
+    #3bb78f 0px, 
+    #3bb78f 5px,
+    #dcf1e7 5px,
+    #dcf1e7 20px,
+    #3bb78f 20px, 
+    #3bb78f 35px,
+    #dcf1e7 35px,
+    #dcf1e7 50px,
+    #3bb78f 50px, 
+    #3bb78f 65px,
+    #dcf1e7 65px,
+    #dcf1e7 80px,
+    #3bb78f 80px, 
+    #3bb78f 100px
+    );
 }
 
 .list {
@@ -299,15 +319,21 @@ opacity: 5;
     height: 100px;
 }
 
-a.link {
+a.link-1, a.link-2, a.link-3 {
     color: whitesmoke;
     text-decoration: none;
     text-align: center;
     margin: auto auto auto auto;
-    padding: 15px;
+    padding: 13px;
 }
 
-a.link:hover {
+.font-size {
+    font-size: 25px;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+}
+
+a.link-1:hover, a.link-2:hover, a.link-3:hover {
     color: gainsboro;
 }
 
