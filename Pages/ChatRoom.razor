@@ -1,13 +1,11 @@
 @page "/chatroom"
 @inject NavigationManager navigationManager
-@* @implements IAsyncDisposable *@
 @inject Blazored.LocalStorage.ILocalStorageService localStorageService
 @using Microsoft.AspNetCore.SignalR.Client;
 @using MeddelandeCentralen.Data;
 @using System.Linq;
 @using System.Threading.Tasks;
 @using System;
-
 
 <h1 class="pagetitle">Chatrum 1</h1>
 <hr />
@@ -59,7 +57,7 @@ else
     private string? _newMessage;
     private List<Message> _messages = new List<Message>();
     private string? _hubUrl;
-    private HubConnection _hubConnection;
+    private HubConnection? _hubConnection;
 
     public async Task Chat()
     {
