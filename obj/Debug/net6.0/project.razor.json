@@ -144,6 +144,39 @@
         }
       },
       {
+        "HashCode": -589701716,
+        "Kind": "Components.Component",
+        "Name": "MeddelandeCentralen.App",
+        "AssemblyName": "MeddelandeCentralen",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MeddelandeCentralen.App"
+        }
+      },
+      {
+        "HashCode": 1345540811,
+        "Kind": "Components.Component",
+        "Name": "MeddelandeCentralen.App",
+        "AssemblyName": "MeddelandeCentralen",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MeddelandeCentralen.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MeddelandeCentralen.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1938833515,
         "Kind": "Components.Component",
         "Name": "MeddelandeCentralen.Shared.MainLayout",
@@ -236,6 +269,39 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "MeddelandeCentralen.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1394981603,
+        "Kind": "Components.Component",
+        "Name": "MeddelandeCentralen.Shared.NavMenu",
+        "AssemblyName": "MeddelandeCentralen",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MeddelandeCentralen.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 744806751,
+        "Kind": "Components.Component",
+        "Name": "MeddelandeCentralen.Shared.NavMenu",
+        "AssemblyName": "MeddelandeCentralen",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MeddelandeCentralen.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MeddelandeCentralen.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
