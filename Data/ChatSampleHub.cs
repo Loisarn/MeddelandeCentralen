@@ -13,6 +13,11 @@ namespace MeddelandeCentralen.Data
             await Clients.All.SendAsync("Broadcast", username, message);
         }
 
+        public async Task Todos(string title, bool isdone)
+        {
+            await Clients.All.SendAsync("Broadcast", title, isdone);
+        }
+
         public override Task OnConnectedAsync()
         {
             Console.WriteLine($"{Context.ConnectionId} connected");

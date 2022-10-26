@@ -65,7 +65,7 @@ a, .btn-link {
     }
 
 
-    /* Chat room */
+    /* CHATROOM */
 
 .pagetitle {
      text-align: center;
@@ -77,7 +77,7 @@ a, .btn-link {
      -webkit-text-fill-color: transparent;
  }
 
-    /* improved for chat text box */
+    /* CHAT-TEXTBOX */
 textarea {
     border: 1px solid #888;
     border-radius: 5px;
@@ -96,7 +96,7 @@ textarea {
     border: 1px solid rgba(255,255,255,0.125);
 }
 
-/* improved for speech bubbles */
+/* SPEECH BUBBLES */
 .received, .sent {
     position: relative;
     font-size: 1.1em;
@@ -349,4 +349,19 @@ a.link-1:hover, a.link-2:hover, a.link-3:hover {
 
 .item-user {
     padding: 2px;
+}
+
+
+/*  CHECKLISTPAGE */
+
+.check-list {
+list-style: none;
+}
+
+.isdone {
+    margin: 10px;
+}
+
+.input {
+    align-items: center;
 }

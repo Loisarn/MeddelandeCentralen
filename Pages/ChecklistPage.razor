@@ -1,0 +1,39 @@
+@page "/checklist"
+@inject NavigationManager navigationManager
+@using MeddelandeCentralen.Data
+
+<PageTitle>Checklista</PageTitle>
+
+<h1 class="pagetitle">Checklista (@checkList.Count(check => !check.IsDone))</h1>
+<br>
+
+<input class="input" placeholder="Skriv här" @bind="newCheckList" />
+<button @onclick="AddCheckList">Lägg till</button>
+
+<br>
+<br>
+
+<ul class="check-list">
+    @foreach (var check in checkList)
+    {
+        <li class="isdone">
+            <input @bind="check.Title" />
+            <input type="checkbox" @bind="check.IsDone" />
+        </li>
+    }
+</ul>
+
+
+@code {
+    private List<Checklist> checkList = new();
+    private string? newCheckList;
+
+    private void AddCheckList()
+    {
+        if (!string.IsNullOrWhiteSpace(newCheckList))
+        {
+            checkList.Add(new Checklist { Title = newCheckList });
+            newCheckList = string.Empty;
+        }
+    }
+}
