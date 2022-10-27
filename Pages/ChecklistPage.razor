@@ -7,18 +7,20 @@
 <h1 class="pagetitle">Checklista (@checkList.Count(check => !check.IsDone))</h1>
 <br>
 
-<input class="input" placeholder="Skriv här" @bind="newCheckList" />
-<button @onclick="AddCheckList">Lägg till</button>
+<div class="header">
+    <input class="input" placeholder="Skriv här" @bind="newCheckList" />
+    <button class="addbtn" @onclick="AddCheckList">Lägg till</button>
+</div>
 
 <br>
 <br>
 
-<ul class="check-list">
+<ul>
     @foreach (var check in checkList)
     {
-        <li class="isdone">
+        <li>
             <input @bind="check.Title" />
-            <input type="checkbox" @bind="check.IsDone" />
+            <input class="checkbox" type="checkbox" @bind="check.IsDone" />
         </li>
     }
 </ul>

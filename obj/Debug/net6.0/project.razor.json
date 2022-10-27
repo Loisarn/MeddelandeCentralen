@@ -78,6 +78,39 @@
         }
       },
       {
+        "HashCode": 1217844791,
+        "Kind": "Components.Component",
+        "Name": "MeddelandeCentralen.Pages.ChatRoom",
+        "AssemblyName": "MeddelandeCentralen",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChatRoom"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MeddelandeCentralen.Pages.ChatRoom"
+        }
+      },
+      {
+        "HashCode": 1247943042,
+        "Kind": "Components.Component",
+        "Name": "MeddelandeCentralen.Pages.ChatRoom",
+        "AssemblyName": "MeddelandeCentralen",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MeddelandeCentralen.Pages.ChatRoom"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MeddelandeCentralen.Pages.ChatRoom",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1352584818,
         "Kind": "Components.Component",
         "Name": "MeddelandeCentralen.Pages.Index",
@@ -140,39 +173,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MeddelandeCentralen.Pages.ChecklistPage",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1217844791,
-        "Kind": "Components.Component",
-        "Name": "MeddelandeCentralen.Pages.ChatRoom",
-        "AssemblyName": "MeddelandeCentralen",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ChatRoom"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MeddelandeCentralen.Pages.ChatRoom"
-        }
-      },
-      {
-        "HashCode": 1247943042,
-        "Kind": "Components.Component",
-        "Name": "MeddelandeCentralen.Pages.ChatRoom",
-        "AssemblyName": "MeddelandeCentralen",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MeddelandeCentralen.Pages.ChatRoom"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MeddelandeCentralen.Pages.ChatRoom",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
