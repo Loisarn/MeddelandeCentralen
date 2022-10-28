@@ -1,5 +1,15 @@
 # MeddelandeCentralen
 
+## How to use
+
+- För att starta programmet, skriv 'dotnet run'
+
+## Technologies used
+
+- ASP.NET
+- Blazor
+- C#
+
 Projekt jag har valt till MeddelandeCentralen:
 3." Något i stil med twitter, fast bara för de anställda på hotellet - också här är det viktigt att kunna sortera information per rum."
 
